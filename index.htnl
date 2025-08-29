@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Name — Portfolio</title>
+  <meta name="description" content="Portfolio ของ Your Name | Full-Stack Developer">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-neutral-950 text-neutral-100">
+  <!-- NAV -->
+  <header class="sticky top-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-neutral-950/70">
+    <div class="max-w-6xl mx-auto px-5 py-4 flex items-center justify-between">
+      <a href="#home" class="font-semibold tracking-wide">Your Name</a>
+      <nav class="space-x-4 text-sm">
+        <a href="#about" class="hover:underline">About</a>
+        <a href="#skills" class="hover:underline">Skills</a>
+        <a href="#projects" class="hover:underline">Projects</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="max-w-6xl mx-auto px-5 py-20">
+    <div class="grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="text-4xl md:text-5xl font-bold leading-tight">
+          สวัสดี, ผมคือ <span class="text-indigo-400">Your Name</span>
+        </h1>
+        <p class="mt-4 text-lg text-neutral-300">Full-Stack Developer • Thailand</p>
+        <p class="mt-6 text-neutral-300">
+          ผมเป็นนักพัฒนาที่ชอบเว็บแอป ความเร็วเรียบง่าย และงานที่ดูสะอาดตา โฟกัสที่ PHP + JS + Tailwind
+        </p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="https://github.com/yourid" class="px-4 py-2 rounded-xl bg-neutral-800 hover:bg-neutral-700 transition">GitHub</a>
+          <a href="https://www.linkedin.com/in/yourid/" class="px-4 py-2 rounded-xl bg-neutral-800 hover:bg-neutral-700 transition">LinkedIn</a>
+          <a href="https://x.com/yourid" class="px-4 py-2 rounded-xl bg-neutral-800 hover:bg-neutral-700 transition">X (Twitter)</a>
+        </div>
+      </div>
+      <div class="md:justify-self-end">
+        <!-- Placeholder avatar -->
+        <div class="w-56 h-56 md:w-64 md:h-64 rounded-3xl bg-gradient-to-br from-indigo-500 via-sky-500 to-cyan-400"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="max-w-6xl mx-auto px-5 py-12">
+    <h2 class="text-2xl font-semibold mb-6">Skills</h2>
+    <div class="flex flex-wrap gap-3">
+      <span class="px-3 py-1 rounded-full bg-neutral-800 text-sm">PHP</span>
+      <span class="px-3 py-1 rounded-full bg-neutral-800 text-sm">Laravel</span>
+      <span class="px-3 py-1 rounded-full bg-neutral-800 text-sm">MySQL</span>
+      <span class="px-3 py-1 rounded-full bg-neutral-800 text-sm">JavaScript</span>
+      <span class="px-3 py-1 rounded-full bg-neutral-800 text-sm">Node.js</span>
+      <span class="px-3 py-1 rounded-full bg-neutral-800 text-sm">React</span>
+      <span class="px-3 py-1 rounded-full bg-neutral-800 text-sm">Tailwind CSS</span>
+      <span class="px-3 py-1 rounded-full bg-neutral-800 text-sm">REST API</span>
+      <span class="px-3 py-1 rounded-full bg-neutral-800 text-sm">Git</span>
+      <span class="px-3 py-1 rounded-full bg-neutral-800 text-sm">Docker</span>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="max-w-6xl mx-auto px-5 py-12">
+    <h2 class="text-2xl font-semibold mb-6">Projects</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <article class="p-5 rounded-2xl bg-neutral-900 border border-neutral-800">
+        <h3 class="text-lg font-semibold">Portfolio Minimal</h3>
+        <p class="mt-2 text-neutral-300">เว็บพอร์ตโฟลิโอเรียบง่าย โหลดไว ใช้ Tailwind + PHP</p>
+        <div class="mt-3 flex flex-wrap gap-2">
+          <span class="px-2 py-0.5 rounded-md bg-neutral-800 text-xs">PHP</span>
+          <span class="px-2 py-0.5 rounded-md bg-neutral-800 text-xs">Tailwind</span>
+        </div>
+        <div class="mt-4 flex gap-3">
+          <a href="#" class="text-sm underline underline-offset-4">Demo</a>
+          <a href="#" class="text-sm underline underline-offset-4">Repo</a>
+        </div>
+      </article>
+
+      <article class="p-5 rounded-2xl bg-neutral-900 border border-neutral-800">
+        <h3 class="text-lg font-semibold">Library CRUD</h3>
+        <p class="mt-2 text-neutral-300">ระบบจัดการหนังสือ CRUD ด้วย PHP + MySQL</p>
+        <div class="mt-3 flex flex-wrap gap-2">
+          <span class="px-2 py-0.5 rounded-md bg-neutral-800 text-xs">PHP</span>
+          <span class="px-2 py-0.5 rounded-md bg-neutral-800 text-xs">MySQL</span>
+          <span class="px-2 py-0.5 rounded-md bg-neutral-800 text-xs">CRUD</span>
+        </div>
+        <div class="mt-4 flex gap-3">
+          <a href="#" class="text-sm underline underline-offset-4">Demo</a>
+          <a href="#" class="text-sm underline underline-offset-4">Repo</a>
+        </div>
+      </article>
+
+      <article class="p-5 rounded-2xl bg-neutral-900 border border-neutral-800">
+        <h3 class="text-lg font-semibold">API Wrapper</h3>
+        <p class="mt-2 text-neutral-300">ตัวอย่าง PHP เรียกใช้งาน 3rd-party API + แคชผลลัพธ์</p>
+        <div class="mt-3 flex flex-wrap gap-2">
+          <span class="px-2 py-0.5 rounded-md bg-neutral-800 text-xs">PHP</span>
+          <span class="px-2 py-0.5 rounded-md bg-neutral-800 text-xs">API</span>
+          <span class="px-2 py-0.5 rounded-md bg-neutral-800 text-xs">Caching</span>
+        </div>
+        <div class="mt-4 flex gap-3">
+          <a href="#" class="text-sm underline underline-offset-4">Demo</a>
+          <a href="#" class="text-sm underline underline-offset-4">Repo</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="max-w-6xl mx-auto px-5 py-16">
+    <h2 class="text-2xl font-semibold mb-6">Contact</h2>
+    <form method="post" class="grid md:grid-cols-2 gap-4">
+      <div class="md:col-span-1">
+        <label class="block text-sm mb-1">ชื่อ</label>
+        <input name="name" class="w-full px-3 py-2 rounded-xl bg-neutral-900 border border-neutral-800 focus:outline-none" required>
+      </div>
+      <div class="md:col-span-1">
+        <label class="block text-sm mb-1">อีเมล</label>
+        <input name="email" type="email" class="w-full px-3 py-2 rounded-xl bg-neutral-900 border border-neutral-800 focus:outline-none" required>
+      </div>
+      <div class="md:col-span-2">
+        <label class="block text-sm mb-1">ข้อความ</label>
+        <textarea name="message" rows="5" class="w-full px-3 py-2 rounded-xl bg-neutral-900 border border-neutral-800 focus:outline-none" required></textarea>
+      </div>
+      <div class="md:col-span-2">
+        <button class="px-5 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 transition">ส่งข้อความ</button>
+      </div>
+    </form>
+    <p class="mt-4 text-sm text-neutral-400">หรืออีเมล: <a class="underline" href="mailto:you@example.com">you@example.com</a></p>
+  </section>
+
+  <footer class="py-10 text-center text-neutral-500">
+    © 2025 Your Name — Built with HTML + Tailwind
+  </footer>
+</body>
+</html>
